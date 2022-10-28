@@ -14,11 +14,10 @@
         </header>
         <div class="content">
             <div class="input-box">
-                <input name="guessNum" value="guessNum" 
-               type="number" placeholder="Enter a Number between 1-100"/>
-                <button>Guess</button>
+                <input class="guessNum" type="number" placeholder="Enter a Number between 1-100"/>
+                <button onclick="checkGuessing()">Guess</button>
             </div>
-            <div class="hint">Hint will be shown here</div>
+            <div id="hint">Hint will be shown here</div>
 
             <div class="score">Score: <span>0/100</span></div>
 
