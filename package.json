@@ -1,0 +1,24 @@
+{
+  "name": "guess_the_number_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "guessTheNumber.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GulamMd/Guess_The_Number_JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GulamMd/Guess_The_Number_JS/issues"
+  },
+  "homepage": "https://github.com/GulamMd/Guess_The_Number_JS#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.10",
+    "prompt-sync": "^4.2.0"
+  }
+}
